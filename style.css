@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+main {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+.form {
+  flex-basis: 500px;
+  border: solid 1px #cccccc;
+  padding: 10px 50px;
+  box-shadow: 0 0 3px #cccccc;
+  border-radius: 5px;
+}
+.form section {
+  border: dashed 2px #aaaaaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #aaaaaa;
+  transition: all 0.2s;
+  margin-bottom: 30px;
+  padding: 50px;
+  font-size: 1.1rem;
+}
+.form section:hover {
+  box-shadow: 0 0 8px #aaaaaa;
+  border-color: #888888;
+}
+.form section label {
+  text-decoration: underline #000000;
+  cursor: pointer;
+}
+.form-group {
+  margin-bottom: 25px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  box-shadow: 0 0 2px #cccccc;
+}
+#file-input {
+  display: none;
+}
+.profile-card {
+  flex-basis: 300px;
+  border: solid 2px #cccccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #cccccc;
+  padding: 40px 35px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  margin-bottom: 50px;
+}
+.img-container img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.profile-card .name {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+.profile-card .occupation {
+  font-size: 1.2rem;
+}
